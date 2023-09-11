@@ -29,7 +29,7 @@ public class NameBlenderApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws FileNotFoundException {
-        log.info("EXECUTING : command line runner");
+        log.info("EXECUTING : name blender with pre-defined names");
 
         blenderService.blendName();
     }
